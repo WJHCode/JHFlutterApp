@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059A83C508B9F08E759206E2 /* Pods_JHFlutterApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A206FB55B30EC77D936C23 /* Pods_JHFlutterApp.framework */; };
+		4CF246EC25F07D03003AA528 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF246EB25F07D03003AA528 /* AppDelegate.m */; };
+		4CF246F225F07D03003AA528 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF246F125F07D03003AA528 /* ViewController.m */; };
+		4CF246F525F07D03003AA528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF246F325F07D03003AA528 /* Main.storyboard */; };
+		4CF246F725F07D07003AA528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF246F625F07D07003AA528 /* Assets.xcassets */; };
+		4CF246FA25F07D07003AA528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF246F825F07D07003AA528 /* LaunchScreen.storyboard */; };
+		4CF246FD25F07D07003AA528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF246FC25F07D07003AA528 /* main.m */; };
+		4CF2470725F07D08003AA528 /* JHFlutterAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2470625F07D08003AA528 /* JHFlutterAppTests.m */; };
+		4CF2471225F07D08003AA528 /* JHFlutterAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2471125F07D08003AA528 /* JHFlutterAppUITests.m */; };
+		4CF2475225F22281003AA528 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2475125F22281003AA528 /* RootViewController.m */; };
+		4CF2476125F223DF003AA528 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2475F25F223DF003AA528 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CF2470325F07D08003AA528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF246DF25F07D03003AA528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF246E625F07D03003AA528;
+			remoteInfo = JHFlutterApp;
+		};
+		4CF2470E25F07D08003AA528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF246DF25F07D03003AA528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF246E625F07D03003AA528;
+			remoteInfo = JHFlutterApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		469D979D81CCE9388AF48588 /* Pods-JHFlutterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHFlutterApp.debug.xcconfig"; path = "Target Support Files/Pods-JHFlutterApp/Pods-JHFlutterApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4CF246E725F07D03003AA528 /* JHFlutterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHFlutterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF246EA25F07D03003AA528 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CF246EB25F07D03003AA528 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CF246F025F07D03003AA528 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CF246F125F07D03003AA528 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CF246F425F07D03003AA528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CF246F625F07D07003AA528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF246F925F07D07003AA528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CF246FB25F07D07003AA528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF246FC25F07D07003AA528 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CF2470225F07D08003AA528 /* JHFlutterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHFlutterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF2470625F07D08003AA528 /* JHFlutterAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHFlutterAppTests.m; sourceTree = "<group>"; };
+		4CF2470825F07D08003AA528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF2470D25F07D08003AA528 /* JHFlutterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHFlutterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF2471125F07D08003AA528 /* JHFlutterAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHFlutterAppUITests.m; sourceTree = "<group>"; };
+		4CF2471325F07D08003AA528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF2475025F22281003AA528 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4CF2475125F22281003AA528 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4CF2475F25F223DF003AA528 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CF2476025F223DF003AA528 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6598246A293BA563E54F13D6 /* Pods-JHFlutterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHFlutterApp.release.xcconfig"; path = "Target Support Files/Pods-JHFlutterApp/Pods-JHFlutterApp.release.xcconfig"; sourceTree = "<group>"; };
+		F3A206FB55B30EC77D936C23 /* Pods_JHFlutterApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHFlutterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF246E425F07D03003AA528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059A83C508B9F08E759206E2 /* Pods_JHFlutterApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF246FF25F07D08003AA528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF2470A25F07D08003AA528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113AD31A5781012FD3397D8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3A206FB55B30EC77D936C23 /* Pods_JHFlutterApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CF246DE25F07D02003AA528 = {
+			isa = PBXGroup;
+			children = (
+				4CF246E925F07D03003AA528 /* JHFlutterApp */,
+				4CF2470525F07D08003AA528 /* JHFlutterAppTests */,
+				4CF2471025F07D08003AA528 /* JHFlutterAppUITests */,
+				4CF246E825F07D03003AA528 /* Products */,
+				B0F1C64731D34DE93C1A416F /* Pods */,
+				113AD31A5781012FD3397D8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF246E825F07D03003AA528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF246E725F07D03003AA528 /* JHFlutterApp.app */,
+				4CF2470225F07D08003AA528 /* JHFlutterAppTests.xctest */,
+				4CF2470D25F07D08003AA528 /* JHFlutterAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF246E925F07D03003AA528 /* JHFlutterApp */ = {
+			isa = PBXGroup;
+			children = (
+				4CF246EA25F07D03003AA528 /* AppDelegate.h */,
+				4CF246EB25F07D03003AA528 /* AppDelegate.m */,
+				4CF246F025F07D03003AA528 /* ViewController.h */,
+				4CF2476025F223DF003AA528 /* ViewController.h */,
+				4CF246F125F07D03003AA528 /* ViewController.m */,
+				4CF2475025F22281003AA528 /* RootViewController.h */,
+				4CF2475125F22281003AA528 /* RootViewController.m */,
+				4CF2475F25F223DF003AA528 /* ViewController.m */,
+				4CF246F325F07D03003AA528 /* Main.storyboard */,
+				4CF246F625F07D07003AA528 /* Assets.xcassets */,
+				4CF246F825F07D07003AA528 /* LaunchScreen.storyboard */,
+				4CF246FB25F07D07003AA528 /* Info.plist */,
+				4CF246FC25F07D07003AA528 /* main.m */,
+			);
+			path = JHFlutterApp;
+			sourceTree = "<group>";
+		};
+		4CF2470525F07D08003AA528 /* JHFlutterAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF2470625F07D08003AA528 /* JHFlutterAppTests.m */,
+				4CF2470825F07D08003AA528 /* Info.plist */,
+			);
+			path = JHFlutterAppTests;
+			sourceTree = "<group>";
+		};
+		4CF2471025F07D08003AA528 /* JHFlutterAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF2471125F07D08003AA528 /* JHFlutterAppUITests.m */,
+				4CF2471325F07D08003AA528 /* Info.plist */,
+			);
+			path = JHFlutterAppUITests;
+			sourceTree = "<group>";
+		};
+		B0F1C64731D34DE93C1A416F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				469D979D81CCE9388AF48588 /* Pods-JHFlutterApp.debug.xcconfig */,
+				6598246A293BA563E54F13D6 /* Pods-JHFlutterApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF246E625F07D03003AA528 /* JHFlutterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF2471625F07D08003AA528 /* Build configuration list for PBXNativeTarget "JHFlutterApp" */;
+			buildPhases = (
+				D2C2312DF003D83CF5466443 /* [CP] Check Pods Manifest.lock */,
+				083CB1A5E569558E1A479C1B /* [CP-User] Run Flutter Build myapp_flutter_module Script */,
+				4CF246E325F07D03003AA528 /* Sources */,
+				4CF246E425F07D03003AA528 /* Frameworks */,
+				4CF246E525F07D03003AA528 /* Resources */,
+				26A28631F5EC7535905425CB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHFlutterApp;
+			productName = JHFlutterApp;
+			productReference = 4CF246E725F07D03003AA528 /* JHFlutterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CF2470125F07D08003AA528 /* JHFlutterAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF2471925F07D08003AA528 /* Build configuration list for PBXNativeTarget "JHFlutterAppTests" */;
+			buildPhases = (
+				4CF246FE25F07D08003AA528 /* Sources */,
+				4CF246FF25F07D08003AA528 /* Frameworks */,
+				4CF2470025F07D08003AA528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF2470425F07D08003AA528 /* PBXTargetDependency */,
+			);
+			name = JHFlutterAppTests;
+			productName = JHFlutterAppTests;
+			productReference = 4CF2470225F07D08003AA528 /* JHFlutterAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CF2470C25F07D08003AA528 /* JHFlutterAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF2471C25F07D08003AA528 /* Build configuration list for PBXNativeTarget "JHFlutterAppUITests" */;
+			buildPhases = (
+				4CF2470925F07D08003AA528 /* Sources */,
+				4CF2470A25F07D08003AA528 /* Frameworks */,
+				4CF2470B25F07D08003AA528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF2470F25F07D08003AA528 /* PBXTargetDependency */,
+			);
+			name = JHFlutterAppUITests;
+			productName = JHFlutterAppUITests;
+			productReference = 4CF2470D25F07D08003AA528 /* JHFlutterAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF246DF25F07D03003AA528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4CF246E625F07D03003AA528 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4CF2470125F07D08003AA528 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4CF246E625F07D03003AA528;
+					};
+					4CF2470C25F07D08003AA528 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4CF246E625F07D03003AA528;
+					};
+				};
+			};
+			buildConfigurationList = 4CF246E225F07D03003AA528 /* Build configuration list for PBXProject "JHFlutterApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CF246DE25F07D02003AA528;
+			productRefGroup = 4CF246E825F07D03003AA528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF246E625F07D03003AA528 /* JHFlutterApp */,
+				4CF2470125F07D08003AA528 /* JHFlutterAppTests */,
+				4CF2470C25F07D08003AA528 /* JHFlutterAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF246E525F07D03003AA528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF246FA25F07D07003AA528 /* LaunchScreen.storyboard in Resources */,
+				4CF246F725F07D07003AA528 /* Assets.xcassets in Resources */,
+				4CF246F525F07D03003AA528 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF2470025F07D08003AA528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF2470B25F07D08003AA528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		083CB1A5E569558E1A479C1B /* [CP-User] Run Flutter Build myapp_flutter_module Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build myapp_flutter_module Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../FlutterProject/myapp_flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		26A28631F5EC7535905425CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JHFlutterApp/Pods-JHFlutterApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JHFlutterApp/Pods-JHFlutterApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JHFlutterApp/Pods-JHFlutterApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C2312DF003D83CF5466443 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JHFlutterApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF246E325F07D03003AA528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF246F225F07D03003AA528 /* ViewController.m in Sources */,
+				4CF246EC25F07D03003AA528 /* AppDelegate.m in Sources */,
+				4CF246FD25F07D07003AA528 /* main.m in Sources */,
+				4CF2475225F22281003AA528 /* RootViewController.m in Sources */,
+				4CF2476125F223DF003AA528 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF246FE25F07D08003AA528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF2470725F07D08003AA528 /* JHFlutterAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF2470925F07D08003AA528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF2471225F07D08003AA528 /* JHFlutterAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CF2470425F07D08003AA528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF246E625F07D03003AA528 /* JHFlutterApp */;
+			targetProxy = 4CF2470325F07D08003AA528 /* PBXContainerItemProxy */;
+		};
+		4CF2470F25F07D08003AA528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF246E625F07D03003AA528 /* JHFlutterApp */;
+			targetProxy = 4CF2470E25F07D08003AA528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CF246F325F07D03003AA528 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF246F425F07D03003AA528 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF246F825F07D07003AA528 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF246F925F07D07003AA528 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF2471425F07D08003AA528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CF2471525F07D08003AA528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF2471725F07D08003AA528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469D979D81CCE9388AF48588 /* Pods-JHFlutterApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SJVNSE75P;
+				INFOPLIST_FILE = JHFlutterApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.JHFlutterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4CF2471825F07D08003AA528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6598246A293BA563E54F13D6 /* Pods-JHFlutterApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SJVNSE75P;
+				INFOPLIST_FILE = JHFlutterApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.JHFlutterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4CF2471A25F07D08003AA528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V96F49V552;
+				INFOPLIST_FILE = JHFlutterAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lakala.www.JHFlutterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHFlutterApp.app/JHFlutterApp";
+			};
+			name = Debug;
+		};
+		4CF2471B25F07D08003AA528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V96F49V552;
+				INFOPLIST_FILE = JHFlutterAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lakala.www.JHFlutterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHFlutterApp.app/JHFlutterApp";
+			};
+			name = Release;
+		};
+		4CF2471D25F07D08003AA528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V96F49V552;
+				INFOPLIST_FILE = JHFlutterAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lakala.www.JHFlutterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JHFlutterApp;
+			};
+			name = Debug;
+		};
+		4CF2471E25F07D08003AA528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V96F49V552;
+				INFOPLIST_FILE = JHFlutterAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lakala.www.JHFlutterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JHFlutterApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF246E225F07D03003AA528 /* Build configuration list for PBXProject "JHFlutterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF2471425F07D08003AA528 /* Debug */,
+				4CF2471525F07D08003AA528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF2471625F07D08003AA528 /* Build configuration list for PBXNativeTarget "JHFlutterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF2471725F07D08003AA528 /* Debug */,
+				4CF2471825F07D08003AA528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF2471925F07D08003AA528 /* Build configuration list for PBXNativeTarget "JHFlutterAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF2471A25F07D08003AA528 /* Debug */,
+				4CF2471B25F07D08003AA528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF2471C25F07D08003AA528 /* Build configuration list for PBXNativeTarget "JHFlutterAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF2471D25F07D08003AA528 /* Debug */,
+				4CF2471E25F07D08003AA528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF246DF25F07D03003AA528 /* Project object */;
+}
