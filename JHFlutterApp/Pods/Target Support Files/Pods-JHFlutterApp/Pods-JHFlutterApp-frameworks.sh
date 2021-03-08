@@ -175,11 +175,11 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/../../../FlutterProject/myapp_flutter_module/.ios/Flutter/App.framework"
+  install_framework "${PODS_ROOT}/../../../../FlutterProject/myapp_flutter_module/flutter_module/.ios/Flutter/App.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/../../../FlutterProject/myapp_flutter_module/.ios/Flutter/App.framework"
+  install_framework "${PODS_ROOT}/../../../../FlutterProject/myapp_flutter_module/flutter_module/.ios/Flutter/App.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

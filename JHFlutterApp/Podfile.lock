@@ -1,28 +1,28 @@
 PODS:
   - Flutter (1.0.0)
-  - FlutterPluginRegistrant (0.0.1):
+  - flutter_module (0.0.1):
     - Flutter
-  - myapp_flutter_module (0.0.1):
+  - FlutterPluginRegistrant (0.0.1):
     - Flutter
 
 DEPENDENCIES:
-  - Flutter (from `../../FlutterProject/myapp_flutter_module/.ios/Flutter/engine`)
-  - FlutterPluginRegistrant (from `../../FlutterProject/myapp_flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
-  - myapp_flutter_module (from `../../FlutterProject/myapp_flutter_module/.ios/Flutter`)
+  - Flutter (from `../../../FlutterProject/myapp_flutter_module/flutter_module/.ios/Flutter/engine`)
+  - flutter_module (from `../../../FlutterProject/myapp_flutter_module/flutter_module/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../../../FlutterProject/myapp_flutter_module/flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: "../../FlutterProject/myapp_flutter_module/.ios/Flutter/engine"
+    :path: "../../../FlutterProject/myapp_flutter_module/flutter_module/.ios/Flutter/engine"
+  flutter_module:
+    :path: "../../../FlutterProject/myapp_flutter_module/flutter_module/.ios/Flutter"
   FlutterPluginRegistrant:
-    :path: "../../FlutterProject/myapp_flutter_module/.ios/Flutter/FlutterPluginRegistrant"
-  myapp_flutter_module:
-    :path: "../../FlutterProject/myapp_flutter_module/.ios/Flutter"
+    :path: "../../../FlutterProject/myapp_flutter_module/flutter_module/.ios/Flutter/FlutterPluginRegistrant"
 
 SPEC CHECKSUMS:
   Flutter: ac41d61a47ae5bf8195a5598d2d63754888ec0d5
+  flutter_module: d1e1ff44505640bd9aa37f23f63380c646272be4
   FlutterPluginRegistrant: 2afd5ea46d3a949472c9b7da6462d8fbf7d8b16e
-  myapp_flutter_module: 348c05c5341cc55215ded8ccc0dcc384ea8c1cb2
 
-PODFILE CHECKSUM: 8f7c36747ae6d38825758e64b0aa32e303fdbc9e
+PODFILE CHECKSUM: dc55b35489ece246faea3a7985ab91f36a96a0d7
 
 COCOAPODS: 1.10.1

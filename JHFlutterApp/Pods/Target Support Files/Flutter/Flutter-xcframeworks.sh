@@ -149,5 +149,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../../FlutterProject/myapp_flutter_module/.ios/Flutter/engine/Flutter.xcframework" "Flutter" "framework" "ios-x86_64-simulator" "ios-armv7_arm64"
+install_xcframework "${PODS_ROOT}/../../../../FlutterProject/myapp_flutter_module/flutter_module/.ios/Flutter/engine/Flutter.xcframework" "Flutter" "framework" "ios-x86_64-simulator" "ios-armv7_arm64"
 
